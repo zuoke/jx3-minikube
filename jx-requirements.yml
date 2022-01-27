@@ -19,8 +19,8 @@ spec:
   - key: staging
   - key: production
   ingress:
-    domain: ""
-    externalDNS: false
+    domain: 10.211.55.9.nip.io
+    kind: ingress
     namespaceSubDomain: -jx.
     tls:
       email: ""
